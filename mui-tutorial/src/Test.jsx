@@ -1,14 +1,14 @@
 import React from 'react';
-import { AppBar, Button, ToolBar, Typography } from "@mui/material";
+import {AppBar, Toolbar, Typography, Button} from '@mui/material';
 
 function Test() {
     return (
         <div>
             <AppBar>
-                <ToolBar>
+                <Toolbar>
                     <Typography>Logo</Typography>
                     <Button variant="contained" sx={{ marginLeft: "auto" }} color="warning">Hello</Button>
-                </ToolBar>
+                </Toolbar>
             </AppBar>
         </div>
     )
